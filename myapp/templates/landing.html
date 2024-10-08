@@ -1,0 +1,29 @@
+<!-- templates/landing.html -->
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Django App</h1>
+    </header>
+    <section>
+        <h2>This is a simple landing page</h2>
+        <p>Get started by customizing this page!</p>
+        <button id="alertButton">Click Me!</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Django App</p>
+    </footer>
+
+    <!-- Link to the external JS file -->
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
